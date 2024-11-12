@@ -186,6 +186,7 @@ create_instance(key,secrete,region,availablity_zone,ami_id1,instance_type1,ec2_i
 # It will destroy perticular instance having instance id as instanceid in region region  having  key is aws_key_id and secrete is aws_secrete_access
 destroy_instance(instanceid,region,key,secrete)
 # it will display  response of instance destruction
+# first delete ec2 then VPC incase of removing whole vpc and ec2 instance
 
 # it will destroy perticular vpc having vpcid as vpcid in region region havig key is aws_key_id and secrete is aws_secrete_access
 destroy_vpc(vpcid,region,key,secrete)
