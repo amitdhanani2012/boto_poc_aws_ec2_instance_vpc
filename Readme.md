@@ -1,6 +1,6 @@
 This POC (Proof Of Concept) is created to demostrate how Python3 - boto3 can be used for AWS resource creation and destruction. Here Boto3 Python3 code is shown for "AWS VPC creation from scratch ,One public Subnet creation from scratch, Internet Gateway, Route Table creation from scratch, Routes in Route table creation from scratch, Security group with security rules (example ssh inbound access rule) creation from scratch,destruction of instance with perticular instance id and  destruction of VPC with perticular vpcid". This is small code and there are many inhancement possible in this code. Its just showcase of my Boto3 Python3 and AWS service automation  skills that shows that I can deliver more and I have adequate understanding/ability of AWS and Python3 Boto3 code.
 
-
+Blog link https://amitdhanani.in/2024/11/12/how-to-use-python3-boto3-to-automate-aws-service-ec2-vpc-example/
 
 #Code Usage
 -----------
